@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link href="./fonts.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <link href="https://necolas.github.io/normalize.css/latest/normalize.css" rel="stylesheet">
+    <title>LOCO</title>
+</head>
+
+<body>
+    <div class="promo">
+        <header class="header promo__header">
+            <div class="header__container">
+            </div>
+
+            <div class="header__content">
+                <a class="header__logo" href="">
+                    <img class="header__logo_img" src="./images/logo.png" alt="LOCO">
+                    <img class="header__logo_img--hidden" src="./images/logo-black.png" alt="LOCO-black">
+                </a>
+                <div class="custom-select header__select">
+                    <select>
+                        <option value="RU">RU</option>
+                    </select>
+                </div>
+            </div>
+            <label class="header__button--menu">
+                <!-- <div class="header___menuToggle"> -->
+                <input type="checkbox">
+                <span class="white-line"></span>
+                <span class="white-line"></span>
+                <span class="white-line"></span>
+                <ul class="menu">
+                    <a class="menu__link" href="#">
+                        <li>Home</li>
+                    </a>
+                    <a class="menu__link" href="#">
+                        <li>About</li>
+                    </a>
+                    <a class="menu__link" href="#">
+                        <li>Info</li>
+                    </a>
+                    <a class="menu__link" href="#">
+                        <li>Contact</li>
+                    </a>
+                    <li>Show me more</li></a>
+                </ul>
+
+            </label>
+        </header>
+        <div class="container promo__container">
+            <section class="content promo__content">
+                <div class="content__item content__item--img">
+                    <img class="content__img" src="./images/girl.png" alt="girl">
+                    <img class="content__img--hidden" src="./images/girl-mobile.png" alt="girl-mobile">
+                    <img class="content__img--vector-mobile" src="./images/vector-mobile.png" alt="vector-mobile">
+                </div>
+                <div class="content__item">
+                    <h1 class="title content__title">Новая коллекция</h1>
+                    <p class="description content__description">Бесплатная доставка включена. Предложение действует на
+                        сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите
+                        скриншот данного предложения. В магазинах предложение не суммируется с другими акциями,
+                        предложениями и
+                        распродажей.</p>
+                    <div class="content__actions">
+                        <a class="button content__button" href=#>Читать дальше</a>
+                        <div class="content__actions--link">
+                            <a class="link content__link" href=#>Другие предложения</a>
+                            <div class="content__vector"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer promo__footer">
+                <div class="footer__social social">
+                    <a class="social__item" href=#><img class="social__item--inst" src="./images/instagram.png" alt="instagram"></a>
+                    <a class="social__item" href=#><img class="social__item--vk" src="./images/vk.png" alt="vk"></a>
+                    <a class="social__item" href=#><img class="social__item--fb" src="./images/fb.png" alt="facebook"></a>
+                </div>
+                <div class="footer__scroll"></div>
+            </footer>
+        </div>
+    </div>
+    <section class="product">
+        <div class="container product__container">
+            <div class="product__content">
+                <div class="product__gallery">
+                    <img class="product__img-gray" src="./images/grey-bag.png" alt="bag-grey">
+                    <img class="product__img-rose" src="./images/pink-bag.png" alt="bag-rose">
+                    <img class="product__img-rose-hidden" src="./images/pink-bag-hidden.png" alt="bag-rose">
+                </div>
+                <div class="product__item">
+                    <div class="product__item--container">
+                        <h1 class="title product__title">Кожанный клатч</h1>
+                        <h2 class="product__subtitle">осенняя коллекция</h2>
+                        <p class="description product__description">Бесплатная доставка включена. Предложение действует
+                            на
+                            сайте
+                            loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот
+                            данного
+                            предложения.
+                            В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
+                        <form class="product__form">
+                            <div class="profile product__profile">
+                                <div class="select profile__select">
+                                    <label class="select__item select__item--grey">
+                                        <input type="radio" checked="checked" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="select__item select__item--pink">
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="select__item select__item--blue">
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="select__item select__item--green">
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <span class="product__price">1990 ₽</span>
+                            </div>
+                            <div class="counter product__counter">
+                                <div class="counter__item">
+                                    <label>
+                                        <div class="counter__container">
+                                            <span class="counter__down">-</span>
+                                            <input type="text" value="1" />
+                                            <span class="counter__up">+</span>
+                                        </div>
+                                    </label>
+                                </div>
+                                <button class="button button__counter">Добавить в корзину</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="product__actions--link">
+                        <a class="link product__link" href=#>Другие предложения</a>
+                        <div class="product__vector"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-set">
+        <div class="container product-set__container">
+            <div class="product-set__gallery">
+                <img class="product-set__img" src="./images/product-set.png" alt="Look">
+            </div>
+            <div class="product-set__content">
+                <div class="product-set__item--container">
+                    <h1 class="title product-set__title">Serene Total Look</h1>
+                    <h2 class="product-set__subtitle">осення коллекция</h2>
+                    <p class="description product-set__description">Джинсы, свитер, обувь.</p>
+                    <p class="description product-set__description">В комплект также входит
+                        пакет ароматного чая и кружка.</p>
+                    <div class="counter product-set__counter">
+                        <div class="counter__item">
+                            <label>
+                                <div class="counter__container">
+                                    <span class="counter__down">-</span>
+                                    <input type="text" value="1" />
+                                    <span class="counter__up">+</span>
+                                </div>
+                            </label>
+                        </div>
+                        <button class="button button__counter-rose">Добавить в корзину</button>
+                    </div>
+                </div>
+                <div class="product-set__actions--link">
+                    <a class="link product-set__link" href="#">ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
+                    <div class="product-set__vector"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="created">
+            <p class="created__text">РАЗРАБОТАНО В </p>
+            <img class="created__img" src="./images/logo-whs.png" alt="created-by">
+        </div>
+    </section>
+    </div>
+</body>
+
+</html>
